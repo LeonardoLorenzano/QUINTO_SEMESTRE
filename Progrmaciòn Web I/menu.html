@@ -39,6 +39,39 @@
             text-decoration: none; 
         }
 
+        nav {
+            display: flex;
+            display: row;
+            /*flex-direction: column;
+            flex-direction: row; */
+            background-color: #8bbb92;
+            justify-content: flex-end;
+        }
+
+        @media (max-width: 500px) {
+            nav {
+            flex-direction: column;
+            }
+        }
+            
+
+        main {
+            background-color: #0D47A1;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        section { 
+            padding: 1rem;
+            background-color: aqua;
+            margin: 0.5rem 1rem; 
+            border-radius: 1rem;
+        }
+
+        section:hover {
+            background-color: #a7f8ff;
+        }
+
     </style>
 </head>
 
@@ -47,5 +80,24 @@
     <div class="men_item"><a href="#electronica" class="menu">Electronica</a></div>
     <div class="men_item"><a href="#cocina" class="menu">Cocina</a></div>
     <div class="men_item"><a href="#herramientas" class="menu">Herramientas</a></div>
+
+    <main>
+        <section>
+            <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur atque dolores dolorem ipsa, quaerat natus sint officia enim quis illo perferendis eos quibusdam neque earum, similique quo. Molestias, excepturi quae?</span><span>Aperiam perferendis at officia tenetur, neque autem distinctio expedita deleniti pariatur accusantium rem quibusdam deserunt voluptatibus dicta placeat nisi aut dolore ab necessitatibus ex porro a! Harum quasi nemo vitae!</span><span>Eius possimus blanditiis consequatur! Iusto modi nesciunt, alias voluptates autem officia voluptatibus unde veniam? Aperiam minima fuga soluta rem non aliquam ducimus sequi architecto maiores. Corrupti quasi eveniet at sequi?</span></p>
+        </section>
+        <section>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nemo dolorum, aspernatur recusandae accusantium consequatur facere exercitationem cum doloribus eveniet delectus ducimus ratione dicta quasi quo temporibus impedit molestiae earum!</span><span>Assumenda dolore consequuntur facere molestiae distinctio numquam! Mollitia unde ipsa accusantium laudantium voluptate iusto obcaecati, magnam labore ducimus perspiciatis repellendus omnis deleniti libero cupiditate, maxime amet aspernatur voluptatibus accusamus beatae.</span><span>Facilis corporis blanditiis, a iure accusamus doloremque rem molestias soluta nesciunt ratione quasi vel quam? Iure qui unde id ab excepturi numquam, perspiciatis, incidunt similique tempora repudiandae hic magni voluptatum?</span></p>
+        </section>
+        <section>
+            <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur adipisci, dolores vitae dignissimos quaerat assumenda iure sapiente ipsum, ut tenetur minima vel iste eveniet quisquam ipsa similique excepturi id repellendus.</span><span>Est, quibusdam. Veniam laborum nulla alias eius, reprehenderit aut suscipit optio non nemo nobis maiores saepe facilis tempore velit facere fugiat reiciendis laboriosam aspernatur iusto rerum! Delectus autem consequatur totam.</span><span>Impedit a, quae voluptatibus cumque, nulla voluptas corrupti obcaecati consequatur sed distinctio amet quasi corporis aut debitis. Harum ullam magnam porro maiores dignissimos unde suscipit, adipisci impedit totam! Enim, veniam.</span></p>
+        </section>
+        <section>
+            <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores, nostrum earum aspernatur minima recusandae accusamus, inventore ad eaque molestiae, voluptas sunt rerum nihil laboriosam molestias. Veritatis quo ipsum debitis ad!</span><span>Ad dolores reprehenderit deleniti ipsa vero quaerat, eveniet maiores similique, nam, laboriosam ut adipisci. Ab, ipsam sed nesciunt accusamus, accusantium, ex soluta cupiditate voluptate suscipit porro tempore alias maiores. Exercitationem?</span><span>Voluptate nam ullam perspiciatis velit iste, aperiam quia dignissimos ipsa quas. Sed neque non itaque. Commodi nostrum sapiente sunt, beatae vel cupiditate. Quisquam error veniam dicta culpa iste, deleniti doloribus!</span></p>
+        </section>
+
+
+    </main>
+
 </body>
+
 </html>
