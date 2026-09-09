@@ -107,3 +107,7 @@ header p {
         transform: translateY(0);
     }
 }
+
+.noticia {
+    animation: aparecer 0.6s ease;
+}
