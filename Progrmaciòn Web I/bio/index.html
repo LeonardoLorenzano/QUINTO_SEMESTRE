@@ -1,83 +1,117 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BioNoticias</title>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
 
     <header>
         <h1>BioNoticias</h1>
         <p>Actualidad sobre biodiversidad y conservación</p>
     </header>
+
+
     <nav class="menu">
-    <div class="logo">
-        BioNoticias
-    </div>
-    <div class="enlaces">
-        <a href="#inicio">Inicio</a>
-        <a href="#noticias">Noticias</a>
-        <a href="#especies">Especies</a>
-        <a href="#conservacion">Conservación</a>
-        <a href="#videos">Videos</a>
-    </div>
-</nav>
 
- 
+        <div class="logo">
+            BioNoticias
+        </div>
+
+        <div class="enlaces">
+
+            <a href="#inicio">Inicio</a>
+            <a href="#noticias">Noticias</a>
+            <a href="#especies">Especies</a>
+            <a href="#conservacion">Conservación</a>
+            <a href="#videos">Videos</a>
+
+        </div>
+
+    </nav>
+
     <main>
+        <section class="principal">
 
+            <img src="img/bosque.jpg" alt="Bosque tropical">
+
+            <div class="principal-texto">
+
+                <span>REPORTAJE ESPECIAL</span>
+
+                <h2>
+                    Biodiversidad: el patrimonio natural
+                    que debemos proteger
+                </h2>
+
+                <p>
+                    Los ecosistemas naturales albergan miles de especies
+                    y proporcionan servicios fundamentales para las
+                    comunidades humanas.
+                </p>
+
+                <a href="#">
+                    Leer reportaje
+                </a>
+
+            </div>
+
+        </section>
         <section>
             <h2>Noticias destacadas</h2>
 
-            <article class="noticia">
+            <div class="grid-noticias">
 
-    <img src="img/jaguar.jpg" alt="Jaguar en un bosque tropical">
+                <article class="noticia">
 
-    <div class="noticia-contenido">
+                    <img src="img/jaguar.jpg" alt="Jaguar en un bosque tropical">
 
-        <span class="categoria">
-            Conservación
-        </span>
+                    <div class="noticia-contenido">
 
-        <h3>
-            El jaguar vuelve a recorrer los bosques mexicanos
-        </h3>
+                        <span class="categoria">
+                            Conservación
+                        </span>
 
-        <p>
-            Nuevos registros obtenidos mediante cámaras trampa
-            muestran la presencia de jaguares en diferentes
-            regiones naturales.
-        </p>
-
-        <time datetime="2026-09-05">
-            5 de septiembre de 2026
-        </time>
-
-        <a href="#" class="leer-mas">
-            Leer noticia ...
-        </a>
-
-    </div>
-
-</article>
-<article class="noticia">
-
-    <img src="img/colibri.jpg" alt="Colibrí en un bosque tropical">
-
-    <div class="noticia-contenido">
-
-        <span class="categoria">
-            Conservación
-        </span>
-
-        
                         <h3>
-                            
-                        </h3>El colibrí se encuentra en las regiones tropicales y subtropicales de América Central y del
+                            El jaguar vuelve a recorrer los bosques mexicanos
+                        </h3>
+
+                        <p>
+                            Nuevos registros obtenidos mediante cámaras trampa
+                            muestran la presencia de jaguares en diferentes
+                            regiones naturales.
+                        </p>
+
+                        <time datetime="2026-09-05">
+                            5 de septiembre de 2026
+                        </time>
+
+                        <a href="#" class="leer-mas">
+                            Leer noticia ...
+                        </a>
+
+                    </div>
+
+                </article>
+
+                <article class="noticia">
+
+                    <img src="img/colibri.jpg" alt="Colibrí en la selva de México">
+
+                    <div class="noticia-contenido">
+
+                        <span class="categoria">
+                            Conservación
+                        </span>
+
+                        <h3>
+                            El colibrí se encuentra en las regiones tropicales y subtropicales de América Central y del
                             Sur.
+                        </h3>
 
                         <p>
                             El colibrí es una de las aves más fascinantes del mundo y habita principalmente en el
@@ -95,18 +129,19 @@
                             Leer noticia ...
                         </a>
 
-    </div>
+                    </div>
 
-</article>
-<article class="noticia">
+                </article>
 
-    <img src="img/bosque.jpg" alt="Bosque tropical">
+                <article class="noticia">
 
-    <div class="noticia-contenido">
+                    <img src="img/bosque.jpg" alt="Bosque templado con densa vegetación y neblina">
 
-        <span class="categoria">
-            Conservación
-        </span>
+                    <div class="noticia-contenido">
+
+                        <span class="categoria">
+                            Ecosistemas
+                        </span>
 
                         <h3>
                             Los bosques: el pulmón verde y refugio de nuestra biodiversidad
@@ -125,19 +160,21 @@
                             Leer noticia ...
                         </a>
 
-    </div>
+                    </div>
 
-</article>
-<article class="noticia">
+                </article>
 
-    <img src="img/tortuga.jpg" alt="Tortuga en un bosque tropical">
+                <article class="noticia">
 
-    <div class="noticia-contenido">
+                    <img src="img/tortuga.jpg" alt="Tortuga marina nadando en un arrecife de coral">
 
-        <span class="categoria">
-            Conservación
-        </span>
-                                            <h3>
+                    <div class="noticia-contenido">
+
+                        <span class="categoria">
+                            Vida Marina
+                        </span>
+
+                        <h3>
                             El viaje ancestral de las tortugas hacia las playas de desove
                         </h3>
 
@@ -153,9 +190,12 @@
                         <a href="#" class="leer-mas">
                             Leer noticia ...
                         </a>
-    </div>
 
-</article>
+                    </div>
+
+                </article>
+
+            </div>
 
 
         </section>

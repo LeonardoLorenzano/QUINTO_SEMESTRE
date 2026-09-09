@@ -17,28 +17,24 @@ header {
     padding: 60px 20px;
 }
 
-header h1 {
+header  h1 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
 
 header p {
     font-size: 1.2rem;
-    margin-bottom: 20px;
 }
 
 .menu {
-    display: none;
+    display: flex;
     justify-content: space-between;
+    gap: 2rem;
     align-items: center;
-
     background-color: #10271c;
-
     padding: 15px 8%;
-
     position: sticky;
     top: 0;
-
     z-index: 1000;
 }
 
@@ -50,15 +46,27 @@ header p {
 
 .enlaces {
     display: flex;
-    gap: 25px;
+    gap: 45px;
 }
 
 .enlaces a {
     color: white;
     text-decoration: none;
+    display: inline-block; 
+    transition: 0.3s;
 }
 
 .enlaces a:hover {
-    color: white;
-    text-decoration: underline;
+    color: #9bd18b;
+    transform: scale(1.1); 
+}
+
+
+.grid-noticias {
+    width: 85%;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 55px;
 }
