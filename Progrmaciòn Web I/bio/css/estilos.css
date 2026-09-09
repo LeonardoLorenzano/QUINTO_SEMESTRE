@@ -70,3 +70,29 @@ header p {
     grid-template-columns: repeat(3, 1fr);
     gap: 55px;
 }
+
+
+.noticia {
+    background-color: white;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.1);
+
+    transition:
+        transform 0.3s,
+        box-shadow 0.3s;
+}
+.noticia {
+    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                box-shadow 0.3s ease;
+}
+
+.noticia:hover {
+    /* Escala un 2%, sube 6px y rota medio grado */
+    transform: scale(1.02) translateY(-6px) rotate(0.5deg);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
