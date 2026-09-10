@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <h1> Ejercicio 4: Tablas Complejas con rowspan y colspan </h1>
+
+</head>
+<body>
+
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Dia</th>
+                <th>Turno de la Mañana</th>
+                <th>Turno de la Tarde</th>
+                </tr>
+        </thead>
+
+        <tbody>
+            <tr> 
+                <td><strong>Lunes</strong></td>
+                <td>Matematixas</td>
+                <td>Programacion</td>
+            </tr>
+
+            <tr> 
+                <td><strong>Martes</strong></td>
+                <td colspan="2">Taller de Web</td>
+            </tr>
+            
+            <tr> 
+                <td><strong>Niércoles</strong></td>
+                <!-- rowspan="2" expande la celda hacia la fila del Jueves -->
+                <td rowspan="2">Libre</td>
+            </tr>
+
+            <tr> 
+                <td><strong>Jueves</strong></td>
+                <td>Ingles</td>
+                <!-- Nota: No colocamos un <td> para Turno Tarde aquí porque lo ocupa el rowspan de arriba -->
+            </tr>
+        </tbody>
+
+    </table>
+
+</body>
+</html>

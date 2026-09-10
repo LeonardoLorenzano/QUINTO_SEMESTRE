@@ -1,0 +1,47 @@
+<!-- Ejercicio 2: Flexbox Responsivo y Pseudoclase :hover 
+    Crea un menú de navegación centrado utilizando Flexbox con el siguiente comportamiento:-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Escribe el CSS correspondiente -->
+    <style>
+        nav {
+            display: flex;
+            /* 1. Alineación y distribución */
+            justify-content: center;
+            background-color: #333;
+            padding: 1rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #2196F3;
+            border-radius: 4px;
+        }
+
+        /* 2. Añade el efecto hover */
+        nav a:hover {
+            background-color: #07bfff;
+            border-radius: 5px;
+        }
+
+        /* 3. Media Query para pantallas pequeñas */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+    
+</body>
+</html> 

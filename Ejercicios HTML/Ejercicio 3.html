@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <h1>Ejercicio 3: Maquetación con CSS Grid</h1>
+
+    <style>
+
+        main {
+            display: grid;
+            /* Completa la definición de 3 columnas iguales */
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 1rem;
+        }
+
+        section {
+            background-color: lightcyan;
+            padding: 1rem;
+            border-radius: 8px;
+        }
+
+        /* Agrega hover a las secciones */
+        section:hover {
+            background-color: lightskyblue;
+        }   
+
+    </style>
+
+</head>
+<body>
