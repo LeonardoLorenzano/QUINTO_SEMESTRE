@@ -189,5 +189,8 @@ header p {
     text-decoration: none;
 }
 
-.principal-text
+.principal-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-top: 20px;
 }
